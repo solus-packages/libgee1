@@ -1,0 +1,16 @@
+name       : libgee1
+version    : 0.6.8
+release    : 1
+source     :
+    - http://ftp.acc.umu.se/pub/GNOME/sources/libgee/0.6/libgee-0.6.8.tar.xz : a61f8d796173d41f6144a030d4bd22461f0bb3fa18a3ebe02341b315feebf5d3
+license    : LGPL-2.1
+summary    : libgee 1.0 for legacy applications
+description: |
+    libgee 1.0 for legacy applications
+builddeps  :
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install
